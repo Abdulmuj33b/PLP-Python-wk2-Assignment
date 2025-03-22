@@ -1,0 +1,4 @@
+my_list = []
+my_list=[10, 20, 30, 40]
+my_list.insert(2)= 15
+my_list = my_list.entend()
