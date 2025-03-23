@@ -1,4 +1,13 @@
 my_list = []
-my_list=[10, 20, 30, 40]
-my_list.insert(2)= 15
-my_list = my_list.entend()
+print('my list is empty for now:', my_list)
+my_list = [10, 20, 30, 40]
+print('my list is now populated:', my_list)
+my_list[2] = 15  # Corrected the syntax for updating an element
+print('my list is now updated:', my_list)
+my_list.extend([50, 60, 70])
+print('my list is now extended:', my_list)
+del my_list[-1]
+print('I removed the last value in my list:', my_list)
+my_list.sort()
+print('my list is sorted:', my_list)
+print('the index of 30 on my list is:', my_list.index(30))
